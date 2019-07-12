@@ -6,7 +6,8 @@ class ParsingXml:
 
     @staticmethod
     def parse_bp_releases(full_path):
-        tree = ET.parse(full_path)
+        tree = ET.parse(full_path)Add settings file
+Move some logic to file_management
 
         root = tree.getroot()
 
