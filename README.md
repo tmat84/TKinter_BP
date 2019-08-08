@@ -1,7 +1,7 @@
 
 # Retrieving Data from Blue Prism packages using TKinter and xml.etree.ElementTree
 
-The application has a really simple interface, which is one button on each window :)
+The application has a really simple interface, which is only one button on each window :)
 
 1. After clicking the **Open file** button the method **open_file_and_parse_xml()** is being invoked.
     1.  In the begining the filedialog box appears.Thanks to **open_file_dialog_box()**, The method returns the file path.
