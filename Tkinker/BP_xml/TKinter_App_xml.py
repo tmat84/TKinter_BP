@@ -6,7 +6,7 @@ from tkinter import ttk
 # from matplotlib import style
 import os
 from settings import Settings
-from file_management import SaveOutputToCsv, open_file_dialog_box
+from file_management import SaveOutputToCsv
 from xml_loop import ParsingXml
 
 
@@ -86,7 +86,8 @@ class xmlPages (tk.Tk):
         # self.geometry(f"{self.height_of_window}x{self.width_of_window}+{str(x_coordinate)}+{str(y_coordiante)}")
 
     def open_file_and_parse_xml(self):
-        file_path = open_file_dialog_box()
+
+        file_path = SaveOutputToCsv.open_file_dialog_box()
 
 
         # Assign file path to app_data dic\
