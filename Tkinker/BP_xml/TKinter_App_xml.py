@@ -2,9 +2,6 @@
 
 import tkinter as tk
 from tkinter import ttk
-# import matplotlib
-# from matplotlib import style
-import os
 from settings import Settings
 from file_management import SaveOutputToCsv
 from xml_loop import ParsingXml
